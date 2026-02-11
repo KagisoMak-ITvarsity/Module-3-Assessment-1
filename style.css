@@ -41,6 +41,8 @@ input[type="checkbox"] + label::before {
     letter-spacing: 10px;
     font-size: 20px;
     font-weight: 400;
+     visibility: visible;
+  position: absolute;
 }
 
 input[type="checkbox"]:checked + label::before {
@@ -190,3 +192,4 @@ input[type="checkbox"]:checked + label::before {
 
 
 }
+
