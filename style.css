@@ -29,7 +29,7 @@ body {
 
 /*============ CUSTOM CHECKBOXES ============*/
 
-input[type="checkbox"] {
+input[type="checkbox"] { visibility: hidden; position: relative;
     display: none;
 }
 
@@ -40,10 +40,12 @@ input[type="checkbox"] + label::before {
     content: "\f0c8";
     letter-spacing: 10px;
     font-size: 20px;
+    font-weight: 400;
 }
 
 input[type="checkbox"]:checked + label::before {
     content: "\f14a";
+    font-weight: 900;
 }
 
 /*============ HEADER ============*/
@@ -185,5 +187,6 @@ input[type="checkbox"]:checked + label::before {
 }
 
 @media only screen and (min-width: 1000px) {
+
 
 }
